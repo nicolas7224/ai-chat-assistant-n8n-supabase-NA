@@ -3,6 +3,36 @@
 This project is an **AI-powered personal assistant** built on [n8n](https://n8n.io).  
 It uses **RAG (Retrieval-Augmented Generation)** with **Supabase** to answer questions based on personal documents stored in Google Drive.
 
+
+## ☁️ Deployment Server
+
+This project runs on **AWS EC2 (Ubuntu 24.04)**.
+
+- Instance type: t3.small (2 vCPU, 2GB RAM)
+- Environment: Docker + n8n
+- APIs configured: WhatsApp, Google Drive, Supabase, OpenAI
+- Persistent storage: PostgreSQL (Supabase) + Google Sheets for logging
+
+✅ This makes the assistant cloud-ready and demonstrates end-to-end deployment (LLMOps).
+
+
+## ☁️ Deployment with Docker + Easypanel
+
+The assistant is deployed on **AWS EC2 (Ubuntu 24.04)** using **Docker containers** managed by [Easypanel](https://easypanel.io).
+
+### Running services:
+- **n8n** → Workflow orchestration
+- **PostgreSQL** → Database for conversation storage
+- **Redis** → Cache and job queue management
+- **Evolution-API** → WhatsApp integration layer
+- **Supabase** → Vector database (pgvector) for embeddings
+- **OpenAI** → LLMs, embeddings, transcription, image analysis
+
+### Benefits:
+- Containerized and reproducible environment  
+- Scalable with Docker Compose/Easypanel  
+- Easy monitoring and redeployment  
+
 ---
 
 ## ✨ Features
@@ -103,5 +133,6 @@ Industrial Engineer | Data Analyst | Aspiring Data/AI Engineer
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/nicol%C3%A1s-avila-31380514a/)  
 - 📧 Contact: nicolas7224@hotmail.com  
+
 
 
