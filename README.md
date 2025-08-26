@@ -71,13 +71,18 @@ It uses **RAG (Retrieval-Augmented Generation)** with **Supabase** to answer que
 ## 📸 Demo Screenshots
 
 - n8n workflow view (document ingestion + assistant logic).
+  
     <img width="2240" height="1282" alt="image" src="https://github.com/user-attachments/assets/112b4d12-bf6b-475a-bbbd-6f43d194875d" />
+
+    
 - Example of a document being added to Drive and indexed in Supabase.
-    <img width="2550" height="1378" alt="image" src="https://github.com/user-attachments/assets/00afd72a-f042-4cd2-8871-87654a856ded" />
+  
+    <img width="2558" height="1374" alt="image" src="https://github.com/user-attachments/assets/6b34f0c6-8ac7-4538-b4d0-51fba0c13110" />
+
 
 - WhatsApp chat showing a context-aware RAG answer.
    
-  <img width="1114" height="817" alt="image" src="https://github.com/user-attachments/assets/21c457a1-9fda-42a6-a211-84801ab3244a" />
+    <img width="1114" height="817" alt="image" src="https://github.com/user-attachments/assets/21c457a1-9fda-42a6-a211-84801ab3244a" />
 
 
 ---
@@ -98,4 +103,5 @@ Industrial Engineer | Data Analyst | Aspiring Data/AI Engineer
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/nicol%C3%A1s-avila-31380514a/)  
 - 📧 Contact: nicolas7224@hotmail.com  
+
 
